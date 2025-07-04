@@ -1,0 +1,39 @@
+1. Explain the benefits of using Flutter over other cross-platform frameworks.
+
+> You write just one code and it works on "Android, iOS, web, and even desktop".
+> It’s super fast and smooth, almost like a fully native app.
+> You can easily make beautiful, unique UIs —no limits!
+> Plus, it’s backed by Google and has a huge, helpful developer community.
+
+
+
+2. Describe the role of Dart in Flutter. What are its advantages for mobile development?
+
+> Dart is the language Flutter uses—kind of like the brain behind the app.
+> It’s easy to learn, with simple and familiar syntax.
+> It makes apps run fast thanks to two cool tricks:
+
+  => AOT (Ahead-of-Time) for speed.
+  => JIT (Just-in-Time) for quicker changes during development.
+> Dart also protects you from many common bugs through null safety.
+> You can write both your app’s logic and UI with just Dart—no need to switch languages.
+
+
+3. Outline the steps to set up a Flutter development environment.
+
+1. Go to (https://flutter.dev) and download Flutter.
+2. Extract it somewhere on your computer.
+3. Add Flutter to your system’s PATH.
+4. Install an editor VS Code or Android Studio.
+5. Add the Flutter & Dart plugins in the editor.
+6. Run this command in terminal:
+	flutter doctor
+It will tell you if something’s missing and how to fix it.
+
+
+4. Describe the basic Flutter app structure, explaining main.dart, the main function, and the widget tree.
+
+> Every Flutter app starts from the main.dart file.
+> Inside it, there’s a special function called main()—this is where your app starts running.
+> It uses runApp() to launch your app.
+> Your app is basically a widget tree —think of it like blocks stacked inside each other to create the app’s look and feel.
